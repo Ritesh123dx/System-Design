@@ -1,0 +1,23 @@
+A building contains multiple elevators.
+A Person can call an elevator from outside.
+A Person can choose the floor no he wants to go to.
+
+Elevator:
+    Direction
+    floorNo
+    upQueue
+    downQueue
+
+Elevator methods:
+    - acceptUpRequest
+    - acceptDownRequest
+    - run
+
+Request:
+    RequestType
+    floorNo
+    Direction
+
+
+RequestType -> enum (Internal, External)
+Direction -> enum (UP, DOWN, IDLE)
